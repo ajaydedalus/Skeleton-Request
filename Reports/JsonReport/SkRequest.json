@@ -1,0 +1,130 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-31T06:50:05.827Z",
+        "line": 16,
+        "name": "",
+        "description": "To validate the lims login with valid username and password",
+        "id": "verifying-the-lims-web-page;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24668472700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the lims login page",
+            "match": {
+              "location": "StepDefinition.user_is_on_the_lims_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 243346000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter valid \"VM\"and\"Pas123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"VM\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Pas123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.user_enter_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58862000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click the login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30108711700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click the menu",
+            "match": {
+              "location": "StepDefinition.user_click_the_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10186087500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click the Skeleton Request",
+            "match": {
+              "location": "StepDefinition.user_click_the_Skeleton_Request()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31877127400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click the test",
+            "match": {
+              "location": "StepDefinition.user_click_the_test()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5115478100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter No of sample",
+            "match": {
+              "location": "StepDefinition.user_enter_No_of_sample()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5070879500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click the save",
+            "match": {
+              "location": "StepDefinition.user_click_the_save()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the Lims web page",
+    "description": "",
+    "id": "verifying-the-lims-web-page",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/xvd71/eclipse-workspace/SkeletonRequst/src/test/resources/Skeleton.feature",
+    "tags": []
+  }
+]
